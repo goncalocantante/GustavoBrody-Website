@@ -43,6 +43,13 @@ body {
   background-color: #f8f8f8;
 }
 
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
 /*        */
 /* Navbar */
 /*        */
@@ -88,6 +95,7 @@ body {
   /* verical center */
   top: 50%;
   transform: translateY(-50%);
+  color: #f8f8f8;
 }
 
 /*              */

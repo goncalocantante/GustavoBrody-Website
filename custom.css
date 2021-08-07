@@ -80,6 +80,7 @@ a:hover {
 /*              */
 .landing-page {
   height: 100vh;
+  max-height: 100vh;
   background-color: black;
   color: #f8f8f8;
 }

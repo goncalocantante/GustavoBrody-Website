@@ -9,6 +9,12 @@
 .pt-4 {
   padding-top: 40px !important;
 }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .pt-md-4 {
+    padding-top: 40px !important;
+  }
+}
 .pb-1 {
   padding-bottom: 5px !important;
 }
@@ -79,7 +85,7 @@ a:hover {
 /*              */
 .landing-page {
   height: 100vh;
-  background-color: black;
+  background-color: #050505;
   color: #f8f8f8;
 }
 

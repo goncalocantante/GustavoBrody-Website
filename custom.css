@@ -149,7 +149,7 @@ a:hover {
 /*             */
 
 /*images hover effect */
-.container {
+.container-div {
   position: relative;
   width: 100%;
 }
@@ -272,6 +272,18 @@ footer {
   }
 }
 
+@media (max-width: 825.99px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 778.98px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   body {
@@ -313,10 +325,20 @@ footer {
   .about-text {
     padding-right: 0px;
   }
+
+  .margin-adjust {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  body {
+    font-size: 12px;
+  }
+
   h1 {
     font-size: 72px;
   }
@@ -330,6 +352,15 @@ footer {
   h1 {
     font-size: 64px;
   }
+
+  body {
+    font-size: 11px;
+  }
+
+  .ig-big {
+    width: 20px;
+  }
+
   .ig-small {
     width: 15px;
     height: 15px;

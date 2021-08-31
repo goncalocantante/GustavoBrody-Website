@@ -61,17 +61,6 @@ a:hover {
   color: black;
   text-decoration: none;
 }
-a:hover {
-  transform: scale(1.2);
-}
-body {
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-}
-html {
-  height: -webkit-fill-available;
-}
-
 /*        */
 /* Navbar */
 /*        */
@@ -109,8 +98,6 @@ html {
 .centered {
   position: absolute;
   /* horizontal center */
-  margin-left: auto;
-  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
@@ -203,7 +190,7 @@ html {
   text-align: center;
 }
 .text:hover {
-  font-size: 28px;
+  font-size: 26px;
 }
 /* Album Template */
 .arrow {
@@ -217,8 +204,9 @@ html {
   color: #050505;
 }
 
-.album-gallery-copy {
+.album-gallery {
   padding-top: 30vh;
+  padding-bottom: 100px;
 }
 
 /*  */
@@ -286,6 +274,12 @@ footer {
   body {
     font-size: 14px;
   }
+  .text {
+    font-size: 20px;
+  }
+  .text:hover {
+    font-size: 22px;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -346,6 +340,12 @@ footer {
   h1 {
     font-size: 72px;
   }
+  .text {
+    font-size: 18px;
+  }
+  .text:hover {
+    font-size: 20px;
+  }
   .navbar-nav li:first-child {
     padding-right: 35px;
   }
@@ -394,7 +394,12 @@ footer {
   .navbar-brand {
     font-size: 14px;
   }
-
+  .text {
+    font-size: 16px;
+  }
+  .text:hover {
+    font-size: 18px;
+  }
   .navbar {
     height: 90px;
   }
@@ -449,6 +454,9 @@ footer {
   }
   .footer-fixed {
     height: 50px;
+  }
+  .album-gallery {
+    padding-bottom: 50px;
   }
 }
 

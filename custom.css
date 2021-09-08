@@ -90,8 +90,8 @@ a:hover {
 /* Landing Page */
 /*              */
 .landing-page {
-  position: relative;
-  height: 100vh;
+  position: absolute;
+  height: 100%;
   background-color: #050505;
   color: #f8f8f8;
 }
@@ -103,7 +103,8 @@ a:hover {
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
-  color: #f8f8f8;
+  /*  color: #f8f8f8; */
+  color: #f8f8;
 }
 
 .centered a {

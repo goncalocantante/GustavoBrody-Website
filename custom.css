@@ -90,6 +90,7 @@ a:hover {
 /* Landing Page */
 /*              */
 .landing-page {
+  position: relative;
   height: 100vh;
   background-color: #050505;
   color: #f8f8f8;
@@ -97,11 +98,9 @@ a:hover {
 
 .centered {
   position: absolute;
-  /* horizontal center */
   left: 0;
   right: 0;
   text-align: center;
-  /* verical center */
   top: 50%;
   transform: translateY(-50%);
   color: #f8f8f8;
@@ -156,6 +155,7 @@ a:hover {
 .container-div {
   position: relative;
   width: 100%;
+  background-color: #f8f8f8;
 }
 
 .overlay {
@@ -168,10 +168,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: white;
-
-  /* margin-bottom: 5px; */
-  margin-bottom: 20px;
+  background-color: #f8f8f8;
 }
 
 .container-div:hover .overlay {

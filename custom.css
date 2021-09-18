@@ -9,6 +9,13 @@
 .pt-4 {
   padding-top: 40px !important;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 540px) {
+  .pt-sm-4 {
+    padding-top: 40px !important;
+  }
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .pt-md-4 {
